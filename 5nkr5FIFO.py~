@@ -112,7 +112,7 @@ entryPayload={
 #https://api.nike.com/commerce/productsize/products/869611-001/availability?country=US&channel=SNKRS
 
 entry='https://api.nike.com/commerce/launchwaitline/launch/waitline/turnToken'
-raw_input('Press Enter to send Request...')
+raw_input=('Press Enter to send Request...')
 entryResponse=session.post(entry,data=json.dumps(entryPayload),headers=entryHeaders)
 
 print entryResponse.json()
