@@ -1,0 +1,8 @@
+# Adjust and rename to config.cfg
+
+[authentication]
+username_email = <EMAIL-HERE>
+password = <PASSWORD-HERE>
+
+[app_info]
+client_id = G64vA0b95ZruUtGk1K0FkAgaO3Ch30sj
